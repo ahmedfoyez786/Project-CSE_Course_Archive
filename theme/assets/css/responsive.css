@@ -459,8 +459,11 @@
     .pb--60 {
         padding-bottom: 30px;
     }
+    .res-logo {
+        width: 135px;
+    }
     .sidebar {
-        margin-top: 80px;
+        margin-top: 75px;
     }
     .widget-title {
         margin-bottom: 35px;
@@ -479,7 +482,7 @@
         padding-top: 20px;
     }
     .slicknav_btn {
-        margin-top: -58px;
+        margin-top: -64px;
     }
     .slider-area .owl-nav {
         display: none;
