@@ -184,12 +184,15 @@
     .pb--70 {
         padding-bottom: 50px;
     }
+    .res-logo {
+        width: 190px;
+    }
     /*Home One*/
     .header-bottom {
         padding-top: 20px;
     }
     .slicknav_btn {
-        margin-top: -58px;
+        margin-top: -82px;
     }
     .slider-area .owl-nav {
         display: none;
