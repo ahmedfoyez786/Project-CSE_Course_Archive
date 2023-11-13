@@ -673,28 +673,6 @@ ul.course-meta-stats li i {
   height: auto;
   width: 40px !important;
 }
-.course-meta-details span {
-  font-size: 14px;
-  color: #222;
-}
-.course-meta-details p {
-  font-size: 15px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.course-meta-details li {
-  border-right: 1px solid #cccccc;
-  display: table-cell !important;
-  flex: 1 1 0 !important;
-  text-align: center;
-}
-.course-meta-details {
-  display: table !important;
-  flex-flow: row wrap;
-  justify-content: center;
-  border-top: 1px solid #eee;
-  padding-top: 20px;
-}
 
 .card {
   border-color: rgba(0, 0, 0, 0.07) !important;
