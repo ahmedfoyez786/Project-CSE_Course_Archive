@@ -1,0 +1,586 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CSE Course Archive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
+    <!-- all css here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/default-css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--color css-->
+    <link rel="stylesheet" id="triggerColor" href="assets/css/triggerplate/color-0.css">
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- prealoader area end -->
+    
+    <!-- header area start -->
+    <header id="header">
+        <!-- header two area start -->
+        <div class="header-two">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-sm-6 d-block d-lg-none">
+                        <div class="logo">
+                            <a href="index.html"><img class="res-logo" src="assets/images/rec-logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 offset-lg-1 d-none d-lg-block">
+                        <div class="main-menu menu-style2">
+                            <nav>
+                                <ul id="m_menu_active">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="courses.html">Courses</a></li>
+                                    <li><a href="teachers.html">teacher</a></li>
+                                    <li class="middle-logo">
+                                        <a href="index.html">
+                                            <img class="rec-logo" src="assets/images/rec-logo.png" alt="logo">
+                                            <!-- <img class="hb-bottom-shape" src="assets/images/icon/hb-bottom-shape.png" alt="logo"> -->
+                                        </a>
+                                    </li>
+                                    <li><a href="events.html">Events</a></li>
+                                    <li><a href="blog.html">blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-5">
+                        <div class="header-bottom-right-style-2">
+                            <ul>
+                                <li><a data-toggle="modal" data-target="#exampleModal" class="btn btn-light btn-round" href="#">Log in</a></li>
+                                <li><a data-toggle="modal" data-target="#exampleModal2"  class="btn btn-primary btn-round" class="active" href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <!-- Button trigger modal -->  
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content p-5">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Login Here</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <form> 
+                                    <input type="email" placeholder="Enter Your Email.." required="">
+                                    <input type="password" placeholder="Enter Your Paddword">
+                                    <label class="checkbox-inline mr-5"><input type="checkbox" value="">Remember Me</label> 
+                                    <a class="primary-color" href="#"><u>Forgot password</u></a>
+                                    <input class="btn btn-primary btn-sm" type="submit" value="Login">
+                                </form> 
+                              </div> 
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content p-5">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Please Sign Up Here</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body"> 
+                                <form class="signup-form text-center">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" placeholder="First Name">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <input type="email" placeholder="Enter Your Email.." required="">
+                                    <input type="password" placeholder="Enter Your Password">
+                                    <label class="checkbox-inline"><input type="checkbox" value="">I Agree</label> 
+                                    <input class="btn btn-primary btn-sm" type="submit" value="Register Now">
+                                </form> 
+                              </div> 
+                            </div>
+                          </div>
+                        </div>
+                    </div><!-- col-lg-2 -->
+                    <div class="col-12 d-block d-lg-none">
+                        <div id="mobile_menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header two area end -->
+    </header>
+    <!-- header area end -->
+    <!-- offset search area start -->
+    <div class="offset-search">
+        <form action="#">
+            <input type="text" name="search" placeholder="Sarch here...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- offset search area end -->
+    <!-- body overlay area start -->
+    <div class="body_overlay"></div>
+    <!-- body overlay area end -->
+    <!-- hero area start -->
+    <div class="hero-area has-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="hero-content">
+                        
+                        <h1 class="mb-5"><span class="primary-color">CSE COURSE ARCHIVE </span><b class="line-break"></b> </h1>
+                        <p class="text-white-50">Manarat International University, Department of CSE </p>
+                        <form action="#">
+                            <div class="form-input mt-5">
+                                <input type="text" name="search" required placeholder="Enter your course name">
+                                <button class="btn btn-primary btn-round" type="submit">Search</button>
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero area end -->
+
+    <!-- about area start -->
+    <!-- <div class="about-area-style2 ptb--120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="about-content-style2 text-center has-color">
+                        <div class="section-title-style mb-4">
+                            <h2>Welcome to <b class="line-break"></b><span class="text-color">Edification</span> University</h2>
+                        </div>
+                        <p class="text-white-70">Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                        <a class="btn btn-light btn-round mt-3" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- about area end -->
+
+    <!-- course area start -->
+    <!--<div class="course-area  ptb--120">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="section-title-style2 black-title title-tb text-center">
+                        <span>Find Your Materials </span>
+                        <h2 class="primary-color">Featured Courses</h2>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="commn-carousel owl-carousel card-deck"> 
+                <div class="card mb-5">
+                    <div class="course-thumb">
+                        <img src="assets/images/course/cs-img1.jpg" alt="image">
+                    </div>
+                    <div class="card-body  p-25"> 
+                        <div class="course-meta-title mb-4">
+                            <div class="course-meta-text">
+                                <h4><a href="course-details.html">Application Design Course</a></h4>
+                                <ul class="course-meta-stats">
+                                    <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+                                    <li>36 <i class="fa fa-comment"></i></li>
+                                    <li>85 <i class="fa fa-heart"></i></li>
+                                </ul>
+                            </div> 
+                            <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" src="assets/images/author/auth1.jpg" alt="image"> </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sciunt. Neque quisquam est, qui dolorem ipsum tatem.</p> 
+                        <ul class="course-meta-details list-inline  w-100">
+                            <li> 
+                             <p>Course</p>
+                             <span>3 Year</span>
+                            </li>
+                            <li>
+                             <p>Class Size</p>
+                              <span>18</span>
+                            </li> 
+                            <li>
+                             <p>Duration</p>
+                              <span>1 hour</span>
+                            </li>      
+                        </ul>  
+                  </div>
+                </div>
+ 
+                <div class="card mb-5">
+                    <div class="course-thumb">
+                        <img src="assets/images/course/cs-img2.jpg" alt="image">
+                    </div>
+                    <div class="card-body  p-25"> 
+                        <div class="course-meta-title mb-4">
+                            <div class="course-meta-text">
+                                <h4><a href="course-details.html">Data Structure & Algorithm</a></h4>
+                                <ul class="course-meta-stats">
+                                    <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+                                    <li>36 <i class="fa fa-comment"></i></li>
+                                    <li>85 <i class="fa fa-heart"></i></li>
+                                </ul>
+                            </div> 
+                            <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" src="assets/images/author/auth1.jpg" alt="image"> </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sciunt. Neque quisquam est, qui dolorem ipsum tatem.</p> 
+                        <ul class="course-meta-details list-inline  w-100">
+                            <li> 
+                             <p>Course</p>
+                             <span>3 Year</span>
+                            </li>
+                            <li>
+                             <p>Class Size</p>
+                              <span>18</span>
+                            </li> 
+                            <li>
+                             <p>Duration</p>
+                              <span>1 hour</span>
+                            </li>      
+                        </ul>  
+                  </div>
+                </div>
+  
+                <div class="card mb-5">
+                    <div class="course-thumb">
+                        <img src="assets/images/course/cs-img3.jpg" alt="image">
+                    </div>
+                    <div class="card-body  p-25"> 
+                        <div class="course-meta-title mb-4">
+                            <div class="course-meta-text">
+                                <h4><a href="course-details.html">Android App Development</a></h4>
+                                <ul class="course-meta-stats">
+                                    <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+                                    <li>36 <i class="fa fa-comment"></i></li>
+                                    <li>85 <i class="fa fa-heart"></i></li>
+                                </ul>
+                            </div> 
+                            <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" src="assets/images/author/auth1.jpg" alt="image"> </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sciunt. Neque quisquam est, qui dolorem ipsum tatem.</p> 
+                        <ul class="course-meta-details list-inline  w-100">
+                            <li> 
+                             <p>Course</p>
+                             <span>3 Year</span>
+                            </li>
+                            <li>
+                             <p>Class Size</p>
+                              <span>18</span>
+                            </li> 
+                            <li>
+                             <p>Duration</p>
+                              <span>1 hour</span>
+                            </li>      
+                        </ul>  
+                  </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+     course area end -->
+
+
+    <!-- course area start -->
+    <div class="teacher-area pb--100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="section-title-style2 black-title title-tb text-center">
+                        <span>Learn from the best</span>
+                        <h2 class="primary-color">Our teachers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="commn-carousel owl-carousel card-deck">   
+              <div class="card mb-5"> 
+                <img src="assets/images/teacher/zohurul sir.png" alt="image"> 
+                <div class="card-body teacher-content p-25">  
+                  <h4 class="card-title mb-4"><a href="teacher-details.html">Zahurul Haque</a></h4>
+                  <span class="primary-color d-block mb-4">Assistant Professor </span>
+                  <p class="card-text"></p> 
+                  <!--<ul class="list-inline ">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-deviantart"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                  </ul>-->
+                </div>
+              </div><!-- card -->    
+
+              <div class="card mb-5"> 
+                <img src="assets/images/teacher/rofiq sir.jpg" alt="image"> 
+                <div class="card-body teacher-content p-25">  
+                  <h4 class="card-title mb-4"><a href="teacher-details.html">Mohammad Rofiqul Islam</a></h4>
+                  <span class="primary-color  d-block mb-4">Associate Professor </span>
+                  <p class="card-text"></p> 
+                  <!--<ul class="list-inline ">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-deviantart"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                  </ul>-->
+                </div>
+              </div><!-- card -->    
+
+              <div class="card mb-5"> 
+                <img src="assets/images/teacher/tanvir sir.png" alt="image"> 
+                <div class="card-body teacher-content p-25">  
+                  <h4 class="card-title mb-4"><a href="teacher-details.html">Tanvir Ahmed</a></h4>
+                  <span class="primary-color d-block mb-4">Assistant Professor</span>
+                  <p class="card-text"></p> 
+                  <!--<ul class="list-inline ">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-deviantart"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                  </ul>-->
+                </div>
+              </div><!-- card -->  
+              <div class="card mb-5"> 
+                <img src="assets/images/teacher/zakia akhter.jpg" alt="image"> 
+                <div class="card-body teacher-content p-25">  
+                  <h4 class="card-title mb-4"><a href="teacher-details.html">Jakia Akhter</a></h4>
+                  <span class="primary-color d-block mb-4">Lecturer</span>
+                  <p class="card-text">
+
+                  </p> 
+                  <!--<ul class="list-inline ">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-deviantart"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                  </ul>-->
+                </div>
+              </div><!-- card -->         
+            </div>
+        </div>
+    </div>
+    <!-- course area end -->
+
+    <!-- events area start -->
+    <div class="event-area  pt--120 pb--80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="section-title-style2 black-title text-center">
+                        <span>Join with us</span>
+                        <h2>Upcoming Events</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="media align-items-center mb-5">
+                        <div class="media-head primary-bg">
+                            <span><sub>MAR</sub>25</span>
+                            <p>2018</p>
+                        </div>
+                        <div class="media-body">
+                            <h4><a href="#">Affiliate Marketing</a></h4>
+                            <p><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM</p>
+                        </div>
+                    </div> <!-- media -->
+                </div><!-- col-md-6 -->
+                <div class="col-md-6">
+                    <div class="media align-items-center mb-5">
+                        <div class="media-head primary-bg">
+                            <span><sub>OCT</sub>25</span>
+                            <p>2018</p>
+                        </div>
+                        <div class="media-body">
+                            <h4><a href="#">Facebook Marketing</a></h4>
+                            <p><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM</p>
+                        </div>
+                    </div> <!-- media -->
+                </div><!-- col-md-6 --> 
+                <div class="col-md-6">
+                    <div class="media align-items-center mb-5">
+                        <div class="media-head primary-bg">
+                            <span><sub>NOV</sub>25</span>
+                            <p>2018</p>
+                        </div>
+                        <div class="media-body">
+                            <h4><a href="#">Edustar Autumn</a></h4>
+                            <p><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM</p>
+                        </div>
+                    </div> <!-- media -->
+                </div><!-- col-md-6 -->  
+                <div class="col-md-6">
+                    <div class="media align-items-center mb-5">
+                        <div class="media-head primary-bg">
+                            <span><sub>DEC</sub>25</span>
+                            <p>2018</p>
+                        </div>
+                        <div class="media-body">
+                            <h4><a href="#">Workshop PHP</a></h4>
+                            <p><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM</p>
+                        </div>
+                    </div> <!-- media -->
+                </div><!-- col-md-6 -->   
+            </div><!-- row -->
+        </div><!-- container -->
+    </div>
+    <!-- events area end --> 
+    
+    <div class="testimonial-area ptb--120"><!-- testimonial area start -->
+        <img class="tst-bg" src="assets/images/bg/tst-bg-shape.png" alt="image">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 text-center">
+                    <div class="tst-carousel owl-carousel">
+                        <div class="testimonial-content pb--40">
+                            <div class="section-title sec-style-two">
+                                <span class="text-uppercase primary-color mb-0">Happy students</span>
+                                <h2>Testimonial</h2>
+                            </div>
+                            <h3>‘‘ Whenever I need course materials, this site is my first priority. ‘‘</h3>
+                            <h4>Aziz Hosen Foysal</h4>
+                            <span>Frontend Developer</span>
+                        </div>  
+                        <div class="testimonial-content pb--40">
+                            <div class="section-title sec-style-two">
+                                <span class="text-uppercase primary-color mb-0">Happy students</span>
+                                <h2>Testimonial</h2>
+                            </div>
+                            <h3>‘‘ I always get the updated course materials from this site and its very helpful ‘‘</h3>
+                            <h4>Harun Or Rashid</h4>
+                            <span>App Developer</span>
+                        </div>  
+                        <div class="testimonial-content pb--40">
+                            <div class="section-title sec-style-two">
+                                <span class="text-uppercase primary-color mb-0">Happy students </span>
+                                <h2>Testimonial</h2>
+                            </div>
+                            <h3>‘‘ This Site is very Useful  ‘‘</h3>
+                            <h4>Hossain Zihad</h4>
+                            <span>App Developer</span>
+                        </div> 
+                    </div>
+                </div><!-- row -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- testimonial-area --> 
+
+    <!-- blog area start -->
+    <div class="feature-blog  ptb--120">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="section-title-style2 black-title title-tb text-center">
+                        <span>Top stories</span>
+                        <h2>Blog & News</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="blog-carousel owl-carousel card-deck">                     
+                  <div class="card mb-5"> 
+                    <img class="card-img-top" src="assets/images/blog/blog-thumbnail1.jpg" alt="image">
+                    <div class="card-body p-25"> 
+                        <ul class="list-inline primary-color mb-3">
+                            <li><i class="fa fa-clock-o"></i> AUGUST 6, 2017</li>
+                            <li><i class="fa fa-comments"></i> 3 Comments</li>
+                        </ul>
+                      <h4 class="card-title mb-4"><a href="blog.html">The Death Of architechture</a></h4>
+                      <p class="card-text">We’re a philosophical bunch here at School site and we have thought long and hard about.</p> 
+                      <a class="btn btn-primary btn-round btn-sm" href="blog-details.html"> Read More </a>
+                    </div>
+                  </div><!-- card -->                
+                  <div class="card mb-5"> 
+                    <img class="card-img-top" src="assets/images/blog/blog-thumbnail2.jpg" alt="image">
+                    <div class="card-body p-25"> 
+                        <ul class="list-inline primary-color mb-3">
+                            <li><i class="fa fa-clock-o"></i> AUGUST 6, 2017</li>
+                            <li><i class="fa fa-comments"></i> 3 Comments</li>
+                        </ul>
+                      <h4 class="card-title mb-4"><a href="blog.html">Aenean id ullamcorper</a></h4>
+                      <p class="card-text">We’re a philosophical bunch here at School site and we have thought long and hard about.</p> 
+                      <a class="btn btn-primary btn-round btn-sm" href="blog-details.html"> Read More </a>
+                    </div>
+                  </div><!-- card -->
+       
+                  <div class="card mb-5"> 
+                    <img class="card-img-top" src="assets/images/blog/blog-thumbnail3.jpg" alt="image">
+                    <div class="card-body p-25"> 
+                        <ul class="list-inline primary-color mb-3">
+                            <li><i class="fa fa-clock-o"></i> AUGUST 6, 2017</li>
+                            <li><i class="fa fa-comments"></i> 3 Comments</li>
+                        </ul>
+                      <h4 class="card-title mb-4"><a href="blog.html">The Death Of architechture</a></h4>
+                      <p class="card-text">We’re a philosophical bunch here at School site and we have thought long and hard about.</p> 
+                      <a class="btn btn-primary btn-round btn-sm" href="blog-details.html"> Read More </a>
+                    </div>
+                  </div><!-- card -->         
+                  <div class="card mb-5"> 
+                    <img class="card-img-top" src="assets/images/blog/blog-thumbnail1.jpg" alt="image">
+                    <div class="card-body p-25"> 
+                        <ul class="list-inline primary-color mb-3">
+                            <li><i class="fa fa-clock-o"></i> AUGUST 6, 2017</li>
+                            <li><i class="fa fa-comments"></i> 3 Comments</li>
+                        </ul>
+                      <h4 class="card-title mb-4"><a href="blog.html">The Death Of architechture</a></h4>
+                      <p class="card-text">We’re a philosophical bunch here at School site and we have thought long and hard about.</p> 
+                      <a class="btn btn-primary btn-round btn-sm" href="blog-details.html"> Read More </a>
+                    </div>
+                  </div><!-- card -->    
+                </div><!-- blog-carousel -->
+            </div><!-- blog-carousel -->
+
+        </div>
+    </div> <!-- blog area end -->
+
+
+    <!-- footer area start -->
+    <footer>
+        <div>
+            <div class="footer-bottom has-color pb--20">
+                <p>Copyright © 2023 <span><a class="primary-color" href="index.html" target="_blank">CCA</a> </span> - All Rights Reserved. Made by <span><a class="primary-color" href="https://www.linkedin.com/in/ahmedfoyez786" target="_blank">Foyez</a></span></p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+ 
+    <!-- jquery latest version -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- others plugins -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
