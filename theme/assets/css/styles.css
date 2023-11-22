@@ -2165,41 +2165,7 @@ h4.comment-title {
     END Blog Details
 *=============================================*/
 
-/*============================================
-    10. 404
-*=============================================*/
 
-.error-content {
-  text-align: center;
-}
-
-.error-content img {
-  max-width: 900px;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 50px;
-}
-
-.error-content h2 {
-  font-size: 48px;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: #fc9928;
-  letter-spacing: 0;
-  margin-bottom: 25px;
-}
-
-.error-content p {
-  padding: 0 5%;
-  font-size: 17px;
-  font-weight: 500;
-  color: #2f2f2f;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-/*============================================
-    END 404
-*=============================================*/
 
 .modal-body input {
   border: 1px solid #efefef;
