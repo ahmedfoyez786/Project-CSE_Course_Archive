@@ -196,7 +196,32 @@ a:hover {
     1.2 Header Bottom
 *=============================================*/
 
+.header-bottom {
+  position: absolute;
+  left: 0;
+  z-index: 998;
+  width: 100%;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 
+.sticky-header {
+  position: fixed;
+  top: 0;
+  background: #222;
+}
+
+.header-bottom-inner {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.sticky-header .header-bottom-inner {
+  border-color: #222;
+}
 
 .logo a {
   display: inline-block;
@@ -1343,6 +1368,7 @@ img.tst-bg {
   background: url(../images/bg/bg1.jpg);
   padding: 213px 0 114px;
   background-size: cover;
+  top: 100px;
 }
 
 .crumbs-area:before {
@@ -1364,7 +1390,8 @@ img.tst-bg {
   letter-spacing: 0;
   text-transform: uppercase;
   line-height: 59px;
-  margin-bottom: 18px;
+  margin-top: -10px;
+  margin-bottom: 65px;
 }
 
 .crumb-content h4 span {

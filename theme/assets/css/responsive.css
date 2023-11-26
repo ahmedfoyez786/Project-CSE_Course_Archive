@@ -192,7 +192,7 @@
         padding-top: 20px;
     }
     .slicknav_btn {
-        margin-top: -82px;
+        margin: -82px 80px 0;
     }
     .slider-area .owl-nav {
         display: none;
@@ -482,7 +482,7 @@
         padding-top: 20px;
     }
     .slicknav_btn {
-        margin-top: -64px;
+        margin: -64px 100px 0;
     }
     .slider-area .owl-nav {
         display: none;
@@ -768,8 +768,7 @@
         margin: 0 5px;
     }
     .logo {
-        text-align: center;
-        margin: 20px 0;
+        margin: 20px 0 20px 0;
     }
     .header-bottom,
     .sticky-header.header-bottom {
@@ -917,7 +916,7 @@
         background: #fff;
     }
     .header-two .slicknav_btn {
-        margin-top: -48px;
+        margin: -70px 108px 0;
     }
     .hero-area {
         margin-top: 173px;
