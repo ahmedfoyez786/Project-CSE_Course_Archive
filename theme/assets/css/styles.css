@@ -899,11 +899,21 @@ img.tst-bg {
   width: 100%;
   background: #fff;
 }
-
+.header-two .nav_align {
+  margin-right: -95px
+}
 .menu-style2 {
   text-align: center;
 }
 
+.menu-style2.main-menu nav ul {
+  height: 100px;
+}
+
+.menu-style2.main-menu nav ul li {
+  margin-top: -5px;
+  line-height: 0;
+}
 .menu-style2.main-menu nav > ul > li > a {
   color: #151515;
   padding: 54px 17px;
@@ -980,7 +990,7 @@ img.tst-bg {
 /*hero area*/
 
 .hero-area {
-  margin-top: 104px;
+  margin-top: 100px;
   position: relative;
   z-index: 1;
   padding: 170px 0;
