@@ -262,9 +262,7 @@
     .event-area {
         padding-bottom: 60px;
     }
-    .footer-bottom {
-        margin-top: 82px;
-    }
+
 
     /*Home two*/
     .header-two {
@@ -895,9 +893,6 @@
         margin-top: 30px;
         text-align: center;
         padding-right: 0;
-    }
-    .footer-bottom {
-        margin-top: 60px;
     }
     .footer-bottom p {
         font-size: 12px;

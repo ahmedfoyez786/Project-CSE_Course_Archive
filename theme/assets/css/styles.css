@@ -1979,7 +1979,7 @@ h4.comment-title {
 }
 
 .befr-themeoclor.teacher-area:before {
-  background: #fc9928;
+  background: #14171d;
 }
 
 /*============================================
@@ -2034,6 +2034,7 @@ h4.comment-title {
   color: #9fa4af;
   max-width: 600px;
   margin: auto;
+  font-weight: 600;
 }
 
 .cnt-addres-single .icon {
@@ -2060,7 +2061,7 @@ h4.comment-title {
 .contact-form form textarea {
   height: 40px;
   border: none;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #9b9b9b;
   width: 100%;
   letter-spacing: 0;
   -webkit-transition: all 0.3s ease 0s;

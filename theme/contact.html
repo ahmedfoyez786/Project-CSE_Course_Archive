@@ -22,6 +22,9 @@
     <link rel="stylesheet" id="triggerColor" href="assets/css/triggerplate/color-0.css">
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
 </head>
 
 <body>
@@ -96,27 +99,27 @@
                 <div class="col-md-10 offset-md-1">
                     <div class="cnt-title">
                         <h4>Get in touch <span>with us</span></h4>
-                        <p>Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut </p>
+                        <p>Share your important thoughts!!</p>
                     </div>
                 </div>
             </div>
             <div class="contact-form">
-                <form>
+                <form id="form">
                     <div class="row">
                         <div class="col-md-4">
-                            <input type="text" name="name" placeholder="Enter your name">
+                            <input type="text" name="name" id="from_name" placeholder="Enter your name">
                         </div>
                         <div class="col-md-4">
-                            <input type="email" name="email" placeholder="Your Email">
+                            <input type="email" name="email" id="email_id" placeholder="Your Email">
                         </div>
                         <div class="col-md-4">
-                            <input type="text" name="subject" placeholder="Subject">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
                         </div>
                         <div class="col-12">
                             <textarea name="msg" id="msg" placeholder="Your message here"></textarea>
                         </div>
                         <div class="col-12 text-center">
-                            <button type="submit">SEND TO US</button>
+                            <button type="submit" id="button" value="Send Email" onclick="sendMail()">SEND TO US</button>
                         </div>
                     </div>
                 </form>
@@ -145,10 +148,8 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/plugins.js"></script>
-    <!-- google map -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsUcTjt43mTheN9ruCsQVgBE-wgN6_AfY&#038"></script>
-    <script src="assets/js/google-maps.js"></script>
     <script src="assets/js/scripts.js"></script>
+    
 </body>
 
 </html>
