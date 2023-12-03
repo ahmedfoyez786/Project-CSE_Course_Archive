@@ -294,24 +294,93 @@ function initMap() {
 
 // Get in touch
 
-function sendMail() {
-  (function () {
-    emailjs.init("LCEfHVs_q-GYgOsfy"); // Account Public key
-  })();
-  var params = {
-    from_name: document.querySelector("#from_name").value,
-    email_id: document.querySelector("#email_id").value,
-    subject: document.querySelector("#subject").value,
-    msg: document.querySelector("#msg").value,
-  };
+const form = document.querySelector("#form");
+const full_name = document.querySelector("#full_name");
+const email = document.querySelector("#email");
+const subject = document.querySelector("#subject");
+const msg = document.querySelector("#msg");
 
-  var serviceID = "gmail"; // Account Service ID
-  var templateID = "template_xc1qhjv"; // Account Template ID
+function sendEmail(){
 
-  emailjs
-    .send(serviceID, templateID, params)
-    .then((res) => {
-      alert("Email Sent Successfully!");
-    })
-    .catch();
+    const bodymsg = `Full Name: ${full_name.value}<br> Email: ${email.value}<br> Subject: ${subject.value}<br> Message: ${msg.value}`;
+
+    Email.send({
+        SecureToken: "1f00822f-921c-46e2-8035-9f508151b93b",
+        To : 'aseerhosen213@gmail.com',
+        From : "aseerhosen213@gmail.com",
+        Subject : subject.value,
+        Body : bodymsg
+    }).then(
+      message => {
+        if(message == "OK"){
+          Swal.fire({
+            position: "middle",
+            icon: "success",
+            title: "Your Message Has Been Sent!",
+            showConfirmButton: false,
+            timer: 1500
+          });
+        }
+      }
+    );
 }
+
+function checkInputs(){
+    const items = document.querySelectorAll(".item");
+
+    for(const item of items){
+        if(item.value == ""){
+            item.classList.add("error");
+            item.parentElement.classList.add("error");
+        }
+
+        if(items[1].value != ""){
+            checkEmail();
+        }
+
+        items[1].addEventListener("keyup", () => {
+            checkEmail();
+        });
+
+        item.addEventListener("keyup", () => {
+            if(item.value != ""){
+                item.classList.remove("error");
+                item.parentElement.classList.remove("error");
+            } else {
+                item.classList.add("error");
+                item.parentElement.classList.add("error");
+            }
+        });
+    }
+}
+
+function checkEmail(){
+    const emailRegex = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,3})(\.[a-z]{2,3})?$/;
+    const errorTxtEmail = document.querySelector(".error-text.email");
+
+    if(!email.value.match(emailRegex)){
+        email.classList.add("error");
+        email.parentElement.classList.add("error");
+
+        if(email.value != ""){
+            errorTxtEmail.innerText = "Enetr a valid email address";
+        } else {
+            errorTxtEmail.innerText = "Email Address can't be blank";
+        }
+    } else {
+        email.classList.remove("error");
+        email.parentElement.classList.remove("error");
+    }
+}
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    checkInputs();
+
+    if(!full_name.classList.contains("error") && !email.classList.contains("error") && !subject.classList.contains("error") && !msg.classList.contains("error")){
+        sendEmail();
+
+        form.reset();
+        return false;
+    }
+});

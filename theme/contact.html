@@ -22,8 +22,7 @@
     <link rel="stylesheet" id="triggerColor" href="assets/css/triggerplate/color-0.css">
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
   
 </head>
 
@@ -106,20 +105,24 @@
             <div class="contact-form">
                 <form id="form">
                     <div class="row">
-                        <div class="col-md-4">
-                            <input type="text" name="name" id="from_name" placeholder="Enter your name">
+                        <div class="col-md-4 field">
+                            <input type="text" class="item error" name="name" id="full_name" placeholder="Enter your name" autocomplete="off">
+                            <div class="error-text">Please Enter Your Name</div>
                         </div>
-                        <div class="col-md-4">
-                            <input type="email" name="email" id="email_id" placeholder="Your Email">
+                        <div class="col-md-4 field">
+                            <input type="email" class="item error" name="email" id="email" placeholder="Your Email" autocomplete="off">
+                            <div class="error-text email">Please Enter Your Email</div>
                         </div>
-                        <div class="col-md-4">
-                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <div class="col-md-4 field">
+                            <input type="text" class="item error" name="subject" id="subject" placeholder="Subject" autocomplete="off">
+                            <div class="error-text">What Is Your Subject?</div>
                         </div>
-                        <div class="col-12">
-                            <textarea name="msg" id="msg" placeholder="Your message here"></textarea>
+                        <div class="col-12 field">
+                            <textarea name="msg" class="item error" id="msg" placeholder="Your message here" autocomplete="off"></textarea>
+                            <div class="error-text">Write Your Message...</div>
                         </div>
                         <div class="col-12 text-center">
-                            <button type="submit" id="button" value="Send Email" onclick="sendMail()">SEND TO US</button>
+                            <button type="submit">Send TO US</button>
                         </div>
                     </div>
                 </form>
@@ -144,6 +147,8 @@
     <!-- bootstrap 4 js -->
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- others plugins -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
