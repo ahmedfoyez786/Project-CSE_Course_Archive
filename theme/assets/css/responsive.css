@@ -675,7 +675,7 @@
         width: 31px;
     }
     .crumbs-area {
-        padding: 181px 0 76px;
+        padding: 130px 0 75px;
     }
     .course-single {
         max-width: 398px;
@@ -816,9 +816,6 @@
     .abt-rt-inner {
         height: 300px;
     }
-    .line-break {
-        display: inline-block;
-    }
     .blog-carousel .owl-nav,
     .course-carousel .owl-nav,
     .teacher-carousel .owl-nav {
@@ -914,7 +911,7 @@
         margin: -70px 108px 0;
     }
     .hero-area {
-        margin-top: 173px;
+        margin-top: 117px;
         padding: 98px 0;
     }
     .hero-content>span {
@@ -1024,9 +1021,15 @@
     }
 
     /*course*/
+    .crumb-content {
+        margin-top: 100px;
+    }
     .crumb-content h4 {
         font-size: 23px;
         line-height: 36px;
+    }
+    .crumb-title:before {
+        top: 18px;
     }
     .crumb-content p {
         font-size: 16px;
@@ -1037,7 +1040,7 @@
         width: 22px;
     }
     .crumbs-area {
-        padding: 80px 0;
+        padding: 40px 0;
     }
     .csd-hv-info {
         position: inherit;
