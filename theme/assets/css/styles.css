@@ -425,7 +425,6 @@ a:hover {
   padding-top: 120px;
 }
 
-
 .slider-content h3 {
   font-size: 30px;
   text-transform: uppercase;
@@ -572,7 +571,7 @@ a:hover {
 .abt-rt-inner {
   height: 100%;
   display: flex;
-  background: url(../images/about/campus..jpg) center/cover no-repeat;
+  background: url(../images/about/cover4.jpg) center/cover no-repeat;
 }
 
 a.expand-video {
@@ -650,7 +649,6 @@ a.expand-video:hover {
   color: #fc9928;
 }
 
-
 ul.course-meta-stats li {
   display: inline-block;
   margin-right: 15px;
@@ -705,8 +703,6 @@ ul.course-meta-stats li i {
 /*============================================
     END Course Area
 *=============================================*/
-
-
 
 /*============================================
     1.7 Teacher Area
@@ -828,7 +824,7 @@ img.tst-bg {
   transform: translate(-50%, -50%);
 }
 .testimonial-content h3 {
-  font-weight: 700;
+  font-weight: 100;
   color: #ffffff;
   letter-spacing: 0;
   font-style: italic;
@@ -883,7 +879,6 @@ img.tst-bg {
   border-color: #fff !important;
 }
 
-
 /*============================================
     END Call to Action
 *=============================================*/
@@ -892,8 +887,7 @@ img.tst-bg {
     1.12 Footer Area
 *=============================================*/
 
-
-.footer-bottom {  
+.footer-bottom {
   background: #14171d;
   text-align: center;
   border-top: 1px solid #2a2a2a;
@@ -906,7 +900,6 @@ img.tst-bg {
   letter-spacing: 0;
   margin-bottom: 0;
 }
-
 
 /*============================================
     END Footer Area
@@ -925,7 +918,7 @@ img.tst-bg {
   background: #fff;
 }
 .header-two .nav_align {
-  margin-right: -95px
+  margin-right: -95px;
 }
 .menu-style2 {
   text-align: center;
@@ -1007,7 +1000,6 @@ img.tst-bg {
   border-color: #fc9928 !important;
 }
 
-
 .header-bottom-right-style-2 li:first-child a {
   margin-left: 0;
 }
@@ -1019,7 +1011,7 @@ img.tst-bg {
   position: relative;
   z-index: 1;
   padding: 170px 0;
-  background: url(../images/bg/slider.jpg) center/cover no-repeat;
+  background: url(../images/bg/cover10.jpg) center/cover no-repeat;
 }
 
 .hero-area:before {
@@ -1119,7 +1111,7 @@ img.tst-bg {
 /*about-area-style2*/
 
 .about-area-style2 {
-  background: url(../images/bg/abt2-bg.jpg) center/cover no-repeat;
+  background: url(../images/bg/cover3.jpg) center/cover no-repeat;
 }
 
 .section-title-style2 {
@@ -1364,8 +1356,7 @@ img.tst-bg {
 
 .crumbs-area {
   position: relative;
-  z-index: 1;
-  background: url(../images/bg/bg1.jpg);
+  background: url(../images/bg/cover6.jpg);
   padding: 213px 0 114px;
   background-size: cover;
   top: 100px;
@@ -1385,7 +1376,7 @@ img.tst-bg {
 
 .crumb-content h4 {
   font-size: 55px;
-  color: #fefefe;
+  color: #fc9928;
   font-weight: 900;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -2056,7 +2047,6 @@ h4.comment-title {
   font-size: 16px;
 }
 
-
 .contact-form form input,
 .contact-form form textarea {
   height: 40px;
@@ -2216,8 +2206,6 @@ h4.comment-title {
 /*============================================
     END Blog Details
 *=============================================*/
-
-
 
 .modal-body input {
   border: 1px solid #efefef;
