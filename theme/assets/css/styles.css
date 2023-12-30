@@ -941,7 +941,7 @@ img.tst-bg {
 .menu-style2.main-menu nav > ul > li > a:before {
   content: "";
   position: absolute;
-  left: -6px;
+  left: -8px;
   top: calc(50% - 1px);
   height: 2px;
   width: 10px;
@@ -953,7 +953,7 @@ img.tst-bg {
 .menu-style2.main-menu nav ul li.active a:before,
 .menu-style2.main-menu nav ul li a:hover:before {
   opacity: 1;
-  width: 19px;
+  width: 15px;
 }
 
 .menu-style2.main-menu nav ul li.middle-logo a {
